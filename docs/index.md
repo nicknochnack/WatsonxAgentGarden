@@ -27,22 +27,22 @@ By the end of this course, you'll be able to:
 
 This course is organized into four progressive chapters:
 
-### [Chapter 1: Orchestrate](orchestrate)
+### [Chapter 1: Orchestrate](orchestrate.md)
 **No-code agent building with Watsonx Orchestrate**
 
 Perfect for business users and those new to AI agent development. Learn to build powerful agents without writing any code.
 
-### [Chapter 2: Langflow](langflow) 
+### [Chapter 2: Langflow](langflow.md) 
 **Visual agent development with drag-and-drop workflows**
 
 The perfect middle ground between no-code simplicity and full programming control. Build complex agents using a visual interface.
 
-### [Chapter 3: Langgraph](langgraph)
+### [Chapter 3: Langgraph](langgraph.md)
 **Pro-code agent development with Python**
 
 For developers who want complete control. Build sophisticated, production-ready agents with advanced capabilities.
 
-### [Chapter 4: Governance](governance)
+### [Chapter 4: Governance](governance.md)
 **AI governance, evaluation, and monitoring**
 
 Essential skills for deploying AI agents responsibly in production environments. Learn evaluation frameworks and monitoring strategies.
