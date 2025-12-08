@@ -1,5 +1,6 @@
 ---
 title: "Chapter 1: Orchestrate"
+layout: default
 nav_order: 2
 description: "Building no-code AI agents with Watsonx Orchestrate"
 ---

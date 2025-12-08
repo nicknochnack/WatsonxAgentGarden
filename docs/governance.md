@@ -1,5 +1,6 @@
 ---
 title: "Chapter 4: Governance"
+layout: default
 nav_order: 5
 description: "AI governance, evaluation, and monitoring for production deployments"
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Watsonx Agent Garden"
+layout: default
 nav_order: 1
 description: "A bunch of agents customised for industry use cases."
 permalink: /
@@ -28,7 +29,7 @@ By the end of this course, you'll be able to:
 This course is organized into four progressive chapters:
 
 ### [Chapter 1: Orchestrate](orchestrate.md)
-**Building an Insurance Agent**
+**No-code agent building with Watsonx Orchestrate**
 
 Perfect for business users and those new to AI agent development. Learn to build powerful agents without writing any code.
 

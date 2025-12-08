@@ -1,5 +1,6 @@
 ---
 title: "Chapter 3: Langgraph"
+layout: default
 nav_order: 4
 description: "Pro-code agent development with Python and graph architectures"
 ---
