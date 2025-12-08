@@ -1,0 +1,300 @@
+[
+  {
+    "name": "latency",
+    "value": 2.426405,
+    "group": "performance",
+    "min": 2.426405,
+    "max": 2.426405,
+    "count": 1,
+    "node_name": "generation",
+    "applies_to": "node",
+    "individual_results": [
+      {
+        "name": "latency",
+        "value": 2.426405,
+        "group": "performance",
+        "applies_to": "node",
+        "interaction_id": "4+cGgsIJTKxin2++2CwHzQ==",
+        "conversation_id": "abc123",
+        "node_name": "generation",
+        "execution_count": 1,
+        "execution_order": 2
+      }
+    ]
+  },
+  {
+    "name": "faithfulness",
+    "method": "token_k_precision",
+    "provider": "unitxt",
+    "value": 0,
+    "group": "answer_quality",
+    "min": 0,
+    "max": 0,
+    "count": 1,
+    "node_name": "generation",
+    "applies_to": "node",
+    "individual_results": [
+      {
+        "name": "faithfulness",
+        "method": "token_k_precision",
+        "provider": "unitxt",
+        "value": 0,
+        "group": "answer_quality",
+        "thresholds": [
+          {
+            "type": "lower_limit",
+            "value": 0.7
+          }
+        ],
+        "applies_to": "node",
+        "interaction_id": "4+cGgsIJTKxin2++2CwHzQ==",
+        "conversation_id": "abc123",
+        "node_name": "generation",
+        "execution_count": 1,
+        "execution_order": 2
+      }
+    ]
+  },
+  {
+    "name": "answer_relevance",
+    "method": "token_recall",
+    "provider": "unitxt",
+    "value": 0.8333333333333334,
+    "group": "answer_quality",
+    "min": 0.8333333333333334,
+    "max": 0.8333333333333334,
+    "count": 1,
+    "node_name": "generation",
+    "applies_to": "node",
+    "individual_results": [
+      {
+        "name": "answer_relevance",
+        "method": "token_recall",
+        "provider": "unitxt",
+        "value": 0.8333333333333334,
+        "group": "answer_quality",
+        "thresholds": [
+          {
+            "type": "lower_limit",
+            "value": 0.7
+          }
+        ],
+        "applies_to": "node",
+        "interaction_id": "4+cGgsIJTKxin2++2CwHzQ==",
+        "conversation_id": "abc123",
+        "node_name": "generation",
+        "execution_count": 1,
+        "execution_order": 2
+      }
+    ]
+  },
+  {
+    "name": "latency",
+    "value": 10.153608,
+    "group": "performance",
+    "min": 10.153608,
+    "max": 10.153608,
+    "count": 1,
+    "node_name": "retrieval",
+    "applies_to": "node",
+    "individual_results": [
+      {
+        "name": "latency",
+        "value": 10.153608,
+        "group": "performance",
+        "applies_to": "node",
+        "interaction_id": "4+cGgsIJTKxin2++2CwHzQ==",
+        "conversation_id": "abc123",
+        "node_name": "retrieval",
+        "execution_count": 1,
+        "execution_order": 1
+      }
+    ]
+  },
+  {
+    "name": "context_relevance",
+    "method": "token_precision",
+    "provider": "unitxt",
+    "value": 0,
+    "group": "retrieval_quality",
+    "min": 0,
+    "max": 0,
+    "count": 1,
+    "node_name": "retrieval",
+    "applies_to": "node",
+    "individual_results": [
+      {
+        "name": "context_relevance",
+        "method": "token_precision",
+        "provider": "unitxt",
+        "value": 0,
+        "additional_info": {
+          "contexts_values": [
+            0
+          ]
+        },
+        "group": "retrieval_quality",
+        "thresholds": [
+          {
+            "type": "lower_limit",
+            "value": 0.7
+          }
+        ],
+        "applies_to": "node",
+        "interaction_id": "4+cGgsIJTKxin2++2CwHzQ==",
+        "conversation_id": "abc123",
+        "node_name": "retrieval",
+        "execution_count": 1,
+        "execution_order": 1
+      }
+    ]
+  },
+  {
+    "name": "duration",
+    "value": 12.660963,
+    "group": "performance",
+    "min": 12.660963,
+    "max": 12.660963,
+    "count": 1,
+    "applies_to": "interaction",
+    "individual_results": [
+      {
+        "name": "duration",
+        "value": 12.660963,
+        "group": "performance",
+        "applies_to": "interaction",
+        "interaction_id": "4+cGgsIJTKxin2++2CwHzQ==",
+        "conversation_id": "abc123"
+      }
+    ]
+  },
+  {
+    "name": "cost",
+    "value": 0.0000995,
+    "group": "usage",
+    "min": 0.0000995,
+    "max": 0.0000995,
+    "count": 1,
+    "applies_to": "interaction",
+    "individual_results": [
+      {
+        "name": "cost",
+        "value": 0.0000995,
+        "group": "usage",
+        "applies_to": "interaction",
+        "interaction_id": "4+cGgsIJTKxin2++2CwHzQ==",
+        "conversation_id": "abc123"
+      }
+    ]
+  },
+  {
+    "name": "input_token_count",
+    "value": 967,
+    "group": "usage",
+    "min": 967,
+    "max": 967,
+    "count": 1,
+    "applies_to": "interaction",
+    "individual_results": [
+      {
+        "name": "input_token_count",
+        "value": 967,
+        "group": "usage",
+        "applies_to": "interaction",
+        "interaction_id": "4+cGgsIJTKxin2++2CwHzQ==",
+        "conversation_id": "abc123"
+      }
+    ]
+  },
+  {
+    "name": "output_token_count",
+    "value": 28,
+    "group": "usage",
+    "min": 28,
+    "max": 28,
+    "count": 1,
+    "applies_to": "interaction",
+    "individual_results": [
+      {
+        "name": "output_token_count",
+        "value": 28,
+        "group": "usage",
+        "applies_to": "interaction",
+        "interaction_id": "4+cGgsIJTKxin2++2CwHzQ==",
+        "conversation_id": "abc123"
+      }
+    ]
+  },
+  {
+    "name": "duration",
+    "value": 12.660963,
+    "group": "performance",
+    "min": 12.660963,
+    "max": 12.660963,
+    "count": 1,
+    "applies_to": "conversation",
+    "individual_results": [
+      {
+        "name": "duration",
+        "value": 12.660963,
+        "group": "performance",
+        "applies_to": "conversation",
+        "conversation_id": "abc123"
+      }
+    ]
+  },
+  {
+    "name": "cost",
+    "value": 0.0000995,
+    "group": "usage",
+    "min": 0.0000995,
+    "max": 0.0000995,
+    "count": 1,
+    "applies_to": "conversation",
+    "individual_results": [
+      {
+        "name": "cost",
+        "value": 0.0000995,
+        "group": "usage",
+        "applies_to": "conversation",
+        "conversation_id": "abc123"
+      }
+    ]
+  },
+  {
+    "name": "input_token_count",
+    "value": 967,
+    "group": "usage",
+    "min": 967,
+    "max": 967,
+    "count": 1,
+    "applies_to": "conversation",
+    "individual_results": [
+      {
+        "name": "input_token_count",
+        "value": 967,
+        "group": "usage",
+        "applies_to": "conversation",
+        "conversation_id": "abc123"
+      }
+    ]
+  },
+  {
+    "name": "output_token_count",
+    "value": 28,
+    "group": "usage",
+    "min": 28,
+    "max": 28,
+    "count": 1,
+    "applies_to": "conversation",
+    "individual_results": [
+      {
+        "name": "output_token_count",
+        "value": 28,
+        "group": "usage",
+        "applies_to": "conversation",
+        "conversation_id": "abc123"
+      }
+    ]
+  }
+]

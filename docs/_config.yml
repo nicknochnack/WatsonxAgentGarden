@@ -1,0 +1,49 @@
+title: "👀🐝Ⓜ️ Watsonx Agentic AI Course"
+description: "A comprehensive course on building AI agents with Watsonx - from no-code to pro-code solutions"
+baseurl: "/WatsonxAgenticCrashCourse"
+url: "https://nicknochnack.github.io"
+
+# Build settings
+markdown: kramdown
+theme: just-the-docs
+
+# Just the Docs theme configuration
+color_scheme: nil
+search_enabled: true
+
+# Navigation structure
+nav_sort: case_insensitive
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Footer content
+footer_content: "Copyright &copy; 2025 Nick Renotte. Distributed under the <a href=\"https://github.com/nicknochnack/6-08-2025-DTA/blob/main/LICENSE\">MIT License</a>."
+
+# Aux links for the upper right navigation
+aux_links:
+  "Course on GitHub":
+    - "https://github.com/nicknochnack/WatsonxAgenticCrashCourse"
+
+# Makes Aux links open in a new tab
+aux_links_new_tab: true
+
+# Enable heading anchors
+heading_anchors: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - .gitignore
