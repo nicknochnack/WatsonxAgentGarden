@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-# GitHub Pages compatible gems
-gem "github-pages", group: :jekyll_plugins
+# Jekyll
+gem "jekyll", "~> 4.3"
 
 # Theme
 gem "just-the-docs", "~> 0.7.0"
