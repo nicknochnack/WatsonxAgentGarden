@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Chapter 2: Langflow"
 nav_order: 3
 description: "Visual agent development with low-code workflows"

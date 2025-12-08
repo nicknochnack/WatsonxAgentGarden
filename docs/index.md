@@ -1,6 +1,5 @@
 ---
 title: "Watsonx Agent Garden"
-layout: default
 nav_order: 1
 description: "A bunch of agents customised for industry use cases."
 permalink: /
