@@ -28,7 +28,7 @@ By the end of this course, you'll be able to:
 This course is organized into four progressive chapters:
 
 ### [Chapter 1: Orchestrate](orchestrate.md)
-**No-code agent building with Watsonx Orchestrate**
+**Building an Insurance Agent**
 
 Perfect for business users and those new to AI agent development. Learn to build powerful agents without writing any code.
 
