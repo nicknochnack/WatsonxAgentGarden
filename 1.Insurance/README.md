@@ -44,9 +44,11 @@ Prompts
 
 1. Start fastapi server: `uv run fastapi run 1.Insurance/api.py --port 8018`
 2. Add custom component into Langflow Desktop flow 
-3. Add mcp server to watsonx orchestrate `uvx mcp proxy http://host.docker.internal:7860/api/v1/mcp/project/<youruuidhere>/sse` 
-4. Add the Insurance flow 
-5. Test a prompt 
+3. Update Langflow Flow description to 
+> A specialist insurance premium agent, capable of handling new policy creation, quotes and requests requiring insurance back end work. 
+4. Add mcp server to watsonx orchestrate `uvx mcp proxy http://host.docker.internal:7860/api/v1/mcp/project/<youruuidhere>/sse` 
+5. Add the Insurance flow 
+6. Test a prompt 
 
 Prompts
 - Submit the policy quote from above

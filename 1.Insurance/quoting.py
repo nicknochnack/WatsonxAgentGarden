@@ -11,5 +11,5 @@ def quote(age:int, smoker:bool, alcohol: bool, heart_problems:bool):
     return base_rate * age_factor * smoker_factor * alcohol_factor * heart_factor 
 
 if __name__ == '__main__': 
-    print(quote(40, 'Male', True, True, True)) 
+    print(quote(30, True, False, True)) 
 
