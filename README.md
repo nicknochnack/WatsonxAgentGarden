@@ -54,7 +54,7 @@ AIForIndustry/
 3. **Explore use cases**:
    - Start with the [Insurance Use Case](1.Insurance/README.md) for a complete example
    - Review the code and documentation in each use case folder
-   - Follow along with the video walkthroughs in the [documentation site](docs/)
+   - Follow along with the video walkthroughs in the [documentation site](https://nicknochnack.github.io/WatsonxAgentGarden)
 
 ## Prerequisites
 
@@ -67,7 +67,7 @@ Before you begin, make sure you have:
 
 ## Documentation
 
-For detailed documentation and video walkthroughs, visit the [documentation site](docs/).
+For detailed documentation and video walkthroughs, visit the [documentation site](https://nicknochnack.github.io/WatsonxAgentGarden).
 
 ## Contributing
 

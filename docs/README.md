@@ -4,7 +4,7 @@ This directory contains the Jekyll-based documentation site for the Watsonx Agen
 
 ## 🌐 Live Site
 
-The course is available at: `https://nicknochnack.github.io/6-08-2025-DTA/`
+The documentation site is available at: `https://nicknochnack.github.io/WatsonxAgentGarden`
 
 ## 📁 Structure
 

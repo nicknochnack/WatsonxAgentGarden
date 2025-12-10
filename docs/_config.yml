@@ -1,6 +1,6 @@
 title: "Watsonx Agent Garden 🪴"
 description: "A collection of AI agents customized for real-world industry use cases"
-baseurl: "/AIForIndustry"
+baseurl: "/WatsonxAgentGarden"
 url: "https://nicknochnack.github.io"
 
 # Build settings
@@ -19,7 +19,7 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 # Footer content
-footer_content: "Copyright &copy; 2025 Nick Renotte. Distributed under the <a href=\"https://github.com/nicknochnack/6-08-2025-DTA/blob/main/LICENSE\">MIT License</a>."
+footer_content: "Copyright &copy; 2025 Nick Renotte. Distributed under the <a href=\"https://github.com/nicknochnack/AIForIndustry/blob/main/LICENSE\">MIT License</a>."
 
 # Aux links for the upper right navigation
 aux_links:
