@@ -24,7 +24,7 @@ footer_content: "Copyright &copy; 2025 Nick Renotte. Distributed under the <a hr
 # Aux links for the upper right navigation
 aux_links:
   "Repository on GitHub":
-    - "https://github.com/nicknochnack/AIForIndustry"
+    - "https://github.com/nicknochnack/WatsonxAgentGarden"
 
 # Makes Aux links open in a new tab
 aux_links_new_tab: true
