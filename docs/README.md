@@ -13,11 +13,8 @@ docs/
 ├── _config.yml              # Jekyll configuration
 ├── _layouts/
 │   └── default.html         # Custom layout with navigation
-├── index.md                 # Course homepage
-├── orchestrate.md           # Chapter 1: No-code with Orchestrate
-├── langflow.md              # Chapter 2: Low-code with Langflow
-├── langgraph.md             # Chapter 3: Pro-code with Langgraph
-├── governance.md            # Chapter 4: AI Governance
+├── index.md                 # Documentation homepage
+├── insurance.md             # Insurance use case
 ├── Gemfile                  # Ruby dependencies
 └── README.md               # This file
 ```
