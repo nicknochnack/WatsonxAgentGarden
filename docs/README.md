@@ -1,6 +1,6 @@
-# Course Documentation
+# Documentation
 
-This directory contains the Jekyll-based documentation site for the Watsonx Agentic AI Course.
+This directory contains the Jekyll-based documentation site for the Watsonx Agent Garden 🪴.
 
 ## 🌐 Live Site
 

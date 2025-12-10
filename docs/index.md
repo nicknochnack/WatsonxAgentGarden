@@ -1,14 +1,14 @@
 ---
-title: "Watsonx Agent Garden"
+title: "Watsonx Agent Garden 🪴"
 layout: default
 nav_order: 1
 description: "A bunch of agents customised for industry use cases."
 permalink: /
 ---
 
-# Watsonx Agent Garden
+# Watsonx Agent Garden 🪴
 
-Welcome to the Watsonx Agent Garden - a collection of AI agents customized for real-world industry use cases. Each use case demonstrates practical applications of Watsonx agents solving specific business challenges.
+Welcome to the Watsonx Agent Garden 🪴 - a collection of AI agents customized for real-world industry use cases. Each use case demonstrates practical applications of Watsonx agents solving specific business challenges.
 
 ## Overview
 

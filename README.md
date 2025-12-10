@@ -1,6 +1,6 @@
-# Watsonx Agent Garden
+# Watsonx Agent Garden 🪴
 
-Welcome to the Watsonx Agent Garden - a collection of AI agents customized for real-world industry use cases. Each use case demonstrates practical applications of Watsonx agents solving specific business challenges.
+Welcome to the Watsonx Agent Garden 🪴 - a collection of AI agents customized for real-world industry use cases. Each use case demonstrates practical applications of Watsonx agents solving specific business challenges.
 
 ## Overview
 

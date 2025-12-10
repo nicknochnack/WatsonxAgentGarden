@@ -1,7 +1,7 @@
 ---
 title: "Insurance Use Case"
 layout: default
-nav_order: 2
+nav_order: 1
 description: "AI-powered insurance agent with RAG, guidelines, and policy management"
 ---
 

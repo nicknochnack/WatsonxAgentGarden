@@ -1,6 +1,6 @@
-title: "👀🐝Ⓜ️ Watsonx Agentic AI Course"
-description: "A comprehensive course on building AI agents with Watsonx - from no-code to pro-code solutions"
-baseurl: "/WatsonxAgenticCrashCourse"
+title: "Watsonx Agent Garden 🪴"
+description: "A collection of AI agents customized for real-world industry use cases"
+baseurl: "/AIForIndustry"
 url: "https://nicknochnack.github.io"
 
 # Build settings
@@ -23,8 +23,8 @@ footer_content: "Copyright &copy; 2025 Nick Renotte. Distributed under the <a hr
 
 # Aux links for the upper right navigation
 aux_links:
-  "Course on GitHub":
-    - "https://github.com/nicknochnack/WatsonxAgenticCrashCourse"
+  "Repository on GitHub":
+    - "https://github.com/nicknochnack/AIForIndustry"
 
 # Makes Aux links open in a new tab
 aux_links_new_tab: true
