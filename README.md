@@ -1,64 +1,83 @@
-# Nicks Mega Ultra Fun Watsonx Agentic Crash Course
-Right, so you're probably here because I've given you this secret squirrel link. Well, we're about to have some fun. This repo covers everything you need to know about crushing it with agents and watsonx. Enough blabbing, here's what we got on the menu. 
+# Watsonx Agent Garden
 
-<a href="https://nicknochnack.github.io/WatsonxAgenticCrashCourse/"><img src="https://i.imgur.com/5Wl61Mp.png"/></a>
+Welcome to the Watsonx Agent Garden - a collection of AI agents customized for real-world industry use cases. Each use case demonstrates practical applications of Watsonx agents solving specific business challenges.
 
-## Course Overview
+## Overview
 
-This course is designed to give you hands-on experience with building AI agents using different levels of technical complexity. Whether you're a business user, a low-code developer, or a seasoned programmer, there's a path for you.
+This repository showcases production-ready AI agents built with Watsonx, demonstrating how to leverage agentic AI for various industry verticals. Each use case includes complete implementations, documentation, and video walkthroughs.
 
-## What You'll Learn
+## Available Use Cases
 
-By the end of this course, you'll be able to:
-- Build no-code agents using Watsonx Orchestrate
-- Create visual agent workflows with Langflow
-- Develop sophisticated agents with Langgraph and Python
-- Implement proper AI governance and evaluation strategies
+### Insurance Use Case
+**AI-powered insurance agent with RAG, guidelines, and policy management**
 
-## Course Structure
+A comprehensive insurance agent that handles policy inquiries, generates quotes, and manages policy submissions using agentic RAG, guidelines, and custom tools.
 
-This course is organized into four progressive chapters:
+**Features:**
+- Agentic RAG for knowledge retrieval from insurance fund rules
+- Guidelines for structured responses to common inquiries
+- Custom pricing tool for generating life insurance quotes
+- Policy submission integration with Langflow and FastAPI
 
-### Chapter 1: Orchestrate
-**No-code agent building with Watsonx Orchestrate**
-
-Perfect for business users and those new to AI agent development. Learn to build powerful agents without writing any code.
-
-### Chapter 2: Langflow
-**Visual agent development with drag-and-drop workflows**
-
-The perfect middle ground between no-code simplicity and full programming control. Build complex agents using a visual interface.
-
-### Chapter 3: Langgraph
-**Pro-code agent development with Python**
-
-For developers who want complete control. Build sophisticated, production-ready agents with advanced capabilities.
-
-### Chapter 4: Governance
-**AI governance, evaluation, and monitoring**
-
-Essential skills for deploying AI agents responsibly in production environments. Learn evaluation frameworks and monitoring strategies.
-
-## Prerequisites
-
-Before you begin, make sure you have:
-- A basic understanding of AI concepts
-- Access to Watsonx services (instructions provided in each section)
-- Python 3.11+ installed for the Langgraph section
-- Git for cloning the repository
+**Documentation:** See the [Insurance Use Case documentation](docs/insurance.md) for detailed walkthroughs and implementation guides.
 
 ## Repository Structure
 
 ```
-WatsonxAgenticCrashCourse/
-├── 1. Orchestrate/     # No-code agent building
-├── 2. Langflow/        # Low-code visual development
-├── 3. Langgraph/       # Pro-code Python development
-├── 4. Governance/      # AI governance and evaluation
-└── docs/              # Course documentation (this site)
+AIForIndustry/
+├── 1.Insurance/        # Insurance use case implementation
+│   ├── api.py         # FastAPI server for policy submission
+│   ├── quoting.py     # Life insurance quote tool
+│   ├── policysubmission.py  # Policy submission logic
+│   ├── requirements.txt     # Python dependencies
+│   └── README.md      # Detailed setup instructions
+├── 2.Banking/          # Banking use case (coming soon)
+└── docs/              # Documentation site
+    ├── index.md       # Main documentation page
+    └── insurance.md   # Insurance use case documentation
 ```
 
-# Who, When, Why?
-👨🏾‍💻 Author: Nick Renotte <br />
-📅 Version: 1.x<br />
-📜 License: This project is licensed under the MIT License </br>
+## Getting Started
+
+1. **Clone the repository**: 
+   ```bash
+   git clone <repository-url>
+   cd AIForIndustry
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   pip install uv
+   uv sync
+   ```
+
+3. **Explore use cases**:
+   - Start with the [Insurance Use Case](1.Insurance/README.md) for a complete example
+   - Review the code and documentation in each use case folder
+   - Follow along with the video walkthroughs in the [documentation site](docs/)
+
+## Prerequisites
+
+Before you begin, make sure you have:
+- Access to Watsonx services
+- Python 3.11+ installed
+- Git for cloning the repository
+- Basic understanding of AI agents and Watsonx
+- [uv](https://github.com/astral-sh/uv) package manager (recommended)
+
+## Documentation
+
+For detailed documentation and video walkthroughs, visit the [documentation site](docs/).
+
+## Contributing
+
+This repository contains industry-specific use cases for Watsonx agents. Each use case is designed to be self-contained with its own implementation, documentation, and examples.
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+**Author**: Nick Renotte - AI Engineer and Content Creator  
+**Version**: 1.x
